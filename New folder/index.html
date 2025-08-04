@@ -33,18 +33,22 @@
   </div> -->
 
   <!-- Navigation Bar -->
-  <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-40" data-aos="fade-down">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Genius App Hub</h1>
-      <nav class="space-x-6">
-        <a href="#apps" class="hover:text-indigo-600">Apps</a>
-        <a href="#blog" class="hover:text-indigo-600">Blog</a>
-        <a href="#about" class="hover:text-indigo-600">About</a>
-        <a href="#privacy" class="hover:text-indigo-600">Privacy Policy</a>
-        <a href="#contact" class="hover:text-indigo-600">Contact</a>
-      </nav>
-    </div>
-  </header>
+<header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-40" data-aos="fade-down">
+  <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Genius App Hub</h1>
+    <nav class="space-x-6 flex items-center">
+      <!-- ✅ HOME LINK: active on index.html -->
+      <a href="index.html" class="hover:text-indigo-600">Home</a>
+
+      <!-- ✅ Other links (normal) -->
+      <a href="#apps" class="hover:text-indigo-600">Apps</a>
+      <a href="#blog" class="hover:text-indigo-600">Blog</a>
+      <a href="#about" class="hover:text-indigo-600">About</a>
+      <a href="privacy-policy.html" class="hover:text-indigo-600">Privacy Policy</a>
+      <a href="#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+  </div>
+</header>
 
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-indigo-500 to-blue-600 text-white py-20 text-center" data-aos="fade-up">
@@ -120,7 +124,7 @@
   </section>
 
   <!-- Privacy Policy Section -->
-  <section id="privacy" class="py-16 px-6 max-w-4xl mx-auto text-left" data-aos="fade-up">
+  <!-- <section id="privacy" class="py-16 px-6 max-w-4xl mx-auto text-left" data-aos="fade-up">
     <h2 class="text-3xl font-bold mb-6">Privacy Policy</h2>
     <p class="text-sm mb-4">Last updated: April 4, 2025</p>
     <p class="text-sm mb-4">
@@ -129,23 +133,35 @@
     <p class="text-sm mb-4">
       Any downloads provided are safe and scanned, but we recommend using antivirus software as a precaution. For queries, please contact us.
     </p>
-    <p class="text-sm">For any concerns regarding your privacy, feel free to email us at: <a href="mailto:contact@vidgegnius.com" class="text-indigo-400 underline">contact@vidgegnius.com</a></p>
-  </section>
+    <p class="text-sm">
+      For any concerns regarding your privacy, feel free to email us at: 
+      <a href="mailto:geniusapphub@gmail.com" class="text-indigo-400 underline">geniusapphub.dev@gmail.com</a>
+    </p>
+  </section> -->
 
-  <!-- Contact / Footer -->
-  <footer id="contact" class="bg-gray-900 text-white py-10 px-6" data-aos="fade-up">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="text-2xl font-semibold mb-4">Get in Touch</h3>
-      <p class="text-sm mb-6">Have a question or want to partner? Drop us a message!</p>
-      <a href="mailto:contact@vidgegnius.com" class="inline-block bg-indigo-600 px-6 py-3 rounded-full">Email Us</a>
-      <div class="mt-6 flex justify-center space-x-4">
-        <a href="https://facebook.com/VidGegnius" class="hover:text-indigo-400">Facebook</a>
-        <a href="https://instagram.com/VidGegnius" class="hover:text-indigo-400">Instagram</a>
-        <a href="https://twitter.com/VidGegnius" class="hover:text-indigo-400">Twitter</a>
-      </div>
-      <p class="text-xs mt-6">&copy; 2025 Genius App Hub. All rights reserved.</p>
+ <!-- Contact / Footer Section -->
+<footer id="contact" class="bg-gray-900 text-white py-10 px-6" data-aos="fade-up">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-2xl font-semibold mb-4">Get in Touch</h3>
+    <p class="text-sm mb-2">Have a question or want to partner? Drop us a message!</p>
+
+    <!-- Email & Phone -->
+    <p class="text-sm mb-2">📧 <a href="mailto:geniusapphub.dev@gmail.com" class="underline text-indigo-400">geniusapphub.dev@gmail.com</a></p>
+    <p class="text-sm mb-6">📞 <a href="tel:+917568129604" class="underline text-indigo-400">+91 7568129604</a></p>
+
+    <!-- Button -->
+    <a href="mailto:geniusapphub.dev@gmail.com" class="inline-block bg-indigo-600 px-6 py-3 rounded-full">Email Us</a>
+
+    <!-- Social Links -->
+    <div class="mt-6 flex justify-center space-x-4">
+      <a href="https://facebook.com/VidGegnius" class="hover:text-indigo-400">Facebook</a>
+      <a href="https://instagram.com/VidGegnius" class="hover:text-indigo-400">Instagram</a>
+      <a href="https://twitter.com/VidGegnius" class="hover:text-indigo-400">Twitter</a>
     </div>
-  </footer>
+    <p class="text-xs mt-6">&copy; 2025 Genius App Hub. All rights reserved.</p>
+  </div>
+</footer>
+
 
   <script>
     AOS.init({
